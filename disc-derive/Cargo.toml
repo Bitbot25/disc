@@ -3,6 +3,7 @@ name = "disc-derive"
 version = "0.1.0"
 edition = "2021"
 authors = ["Edvin Flodin <edvin.flodin+discrs@gmail.com>"]
+description = "Attribute macros for https://crates.io/crates/disc."
 documentation = "https://docs.rs/disc-derive/0.1.0/disc-derive/"
 license = "MIT or Apache-2.0"
 
