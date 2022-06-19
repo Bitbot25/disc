@@ -1,0 +1,16 @@
+[package]
+name = "disc-derive"
+version = "0.1.0"
+edition = "2021"
+authors = ["Edvin Flodin <edvin.flodin+discrs@gmail.com>"]
+documentation = "https://docs.rs/disc-derive/0.1.0/disc-derive/"
+license = "MIT or Apache-2.0"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "1.0.98", features = ["derive"] }
+proc-macro2 = "1.0.39"
+quote = "1.0.19"
+proc-macro-crate = "1.1.3"
