@@ -7,4 +7,4 @@ documentation = "https://docs.rs/disc/0.1.0/disc/"
 license = "MIT or Apache-2.0"
 
 [dependencies]
-disc-derive = { path = "../disc-derive" }
+disc-derive = { path = "../disc-derive", version = "0.1.0" }
